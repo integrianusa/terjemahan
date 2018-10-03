@@ -1,18 +1,18 @@
 apps/frappe/frappe/__init__.py +535,No permission for {0},Tidak ada izin untuk {0}
 apps/frappe/frappe/__init__.py +915,App {0} is not installed,App {0} tidak terpasang
 apps/frappe/frappe/__init__.py +1093,Thank you,Terima kasih
-apps/frappe/frappe/app.py +155,"Your session has expired, please login again to continue.","Sesi anda telah habis, silahkan login kembali untuk melanjutkan."
-apps/frappe/frappe/app.py +161,You do not have enough permissions to complete the action,Anda tidak memiliki izin yang cukup untuk menyelesaikan tindakan
+apps/frappe/frappe/app.py +155,"Your session has expired, please login again to continue.","Sesi anda telah habis, login kembali untuk melanjutkan."
+apps/frappe/frappe/app.py +161,You do not have enough permissions to complete the action,Anda tidak memiliki izin untuk melakukan tindakan ini
 apps/frappe/frappe/auth.py +84,Invalid Request,Permintaan tidak berlaku
 apps/frappe/frappe/auth.py +197,Incomplete login details,Rincian login tidak lengkap
 apps/frappe/frappe/auth.py +224,Unknown User,Pengguna tidak dikenal
 apps/frappe/frappe/auth.py +247,Not allowed from this IP Address,Tidak diperbolehkan dari Alamat IP ini
 apps/frappe/frappe/auth.py +261,Login not allowed at this time,Login tidak diizinkan untuk saat ini
-apps/frappe/frappe/client.py +43,No document found for given filters,Tidak ada dokumen yangditemukan untuk filter ini
+apps/frappe/frappe/client.py +43,No document found for given filters,Tidak ada dokumen ditemukan untuk filter ini
 apps/frappe/frappe/client.py +95,Cannot edit standard fields,Tidak dapat mengedit field standar
 apps/frappe/frappe/client.py +149,Only 200 inserts allowed in one request,Hanya 200 sisipan diperbolehkan dalam satu permintaan
-apps/frappe/frappe/client.py +289,Invalid file path: {0},Path file tidak valid: {0}
-apps/frappe/frappe/commands/site.py +460,Invalid limit {0},Batas tidak valid {0}
+apps/frappe/frappe/client.py +289,Invalid file path: {0},Invalid file path: {0}
+apps/frappe/frappe/commands/site.py +460,Invalid limit {0},Invalid limity {0}
 apps/frappe/frappe/config/core.py +7,Documents,Dokumen
 apps/frappe/frappe/config/core.py +12,Models (building blocks) of the Application,Model (blok bangunan) dari Aplikasi
 apps/frappe/frappe/config/core.py +17,Groups of DocTypes,Kelompok DocTypes
@@ -24,7 +24,7 @@ apps/frappe/frappe/config/core.py +47,Errors in Background Events,Kesalahan di B
 apps/frappe/frappe/config/core.py +52,Background Email Queue,Antrian Email di Background
 apps/frappe/frappe/config/core.py +62,A log of request errors,Log kesalahan request
 apps/frappe/frappe/config/desk.py +14,Documents assigned to you and by you.,Dokumen ditugaskan kepada anda dan oleh anda.
-apps/frappe/frappe/config/desk.py +19,Files,Arsip
+apps/frappe/frappe/config/desk.py +19,Files,Files
 apps/frappe/frappe/config/desk.py +26,Event and other calendars.,Acara dan kalender lainnya.
 apps/frappe/frappe/config/desk.py +32,Chat messages and other notifications.,Pesan chat dan notifikasi lainnya.
 apps/frappe/frappe/config/desk.py +38,Private and public Notes.,Catatan pribadi dan publik.
@@ -32,10 +32,10 @@ apps/frappe/frappe/config/desk.py +44,Activity log of all users.,Log aktivitas s
 apps/frappe/frappe/config/desk.py +54,"Newsletters to contacts, leads.","Newsletter ke kontak, prospek."
 apps/frappe/frappe/config/desk.py +59,Email Group List,Daftar Kelompok Email
 apps/frappe/frappe/config/desktop.py +8,Tools,Alat Kerja
-apps/frappe/frappe/config/desktop.py +60,Developer,Pembangun
-apps/frappe/frappe/config/integrations.py +13,Stripe payment gateway settings,Pengaturan gerbang pembayaran Stripe
-apps/frappe/frappe/config/integrations.py +18,PayPal payment gateway settings,Pengaturan gerbang pembayaran PayPal
-apps/frappe/frappe/config/integrations.py +23,Razorpay Payment gateway settings,Pengaturan gerbang pembayaran Razorpay
+apps/frappe/frappe/config/desktop.py +60,Developer,Pengembang
+apps/frappe/frappe/config/integrations.py +13,Stripe payment gateway settings,Pengaturan Payment Gateway Stripe
+apps/frappe/frappe/config/integrations.py +18,PayPal payment gateway settings,Pengaturan Payment Gateway PayPal
+apps/frappe/frappe/config/integrations.py +23,Razorpay Payment gateway settings,Pengaturan Payment Gateway Razorpay
 apps/frappe/frappe/config/integrations.py +28,Backup,Cadangan
 apps/frappe/frappe/config/integrations.py +33,Dropbox backup settings,Pengaturan cadangan Dropbox
 apps/frappe/frappe/config/integrations.py +43,Authentication,Otentikasi
@@ -2552,7 +2552,7 @@ DocType: Patch Log,Patch Log,Patch Log
 DocType: Patch Log,List of patches executed,Daftar patch dieksekusi
 DocType: Patch Log,Patch,Tambalan
 DocType: Payment Gateway,Gateway,Gerbang
-DocType: Payment Gateway,Payment Gateway,Gerbang pembayaran
+DocType: Payment Gateway,Payment Gateway,Gerbang Pembayaran
 DocType: PayPal Settings,Check this if you are testing your payment using the Sandbox API,Periksa ini jika anda menguji pembayaran menggunakan API Sandbox
 DocType: PayPal Settings,Redirect To,redirect Untuk
 DocType: PayPal Settings,API Password,API Sandi
