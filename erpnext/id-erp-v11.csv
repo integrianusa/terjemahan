@@ -3,7 +3,7 @@ DocType: Employee,Salary Mode,Mode Gaji
 apps/erpnext/erpnext/public/js/hub/marketplace.js +109,Register,Daftar
 DocType: Patient,Divorced,Bercerai
 DocType: Support Settings,Post Route Key,Posting Kunci Rute
-DocType: Buying Settings,Allow Item to be added multiple times in a transaction,Izinkan Stok Barang yang sama untuk ditambahkan beberapa kali dalam suatu transaksi
+DocType: Buying Settings,Allow Item to be added multiple times in a transaction,Perbolehkan Barang yang sama ditambahkan berkali-kali dalam satu transaksi
 apps/erpnext/erpnext/support/doctype/warranty_claim/warranty_claim.py +33,Cancel Material Visit {0} before cancelling this Warranty Claim,Batal Bahan Kunjungan {0} sebelum membatalkan Garansi Klaim ini
 apps/erpnext/erpnext/config/education.py +118,Assessment Reports,Laporan Penilaian
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +19,Consumer Products,Produk Pelanggan
@@ -4957,7 +4957,7 @@ apps/erpnext/erpnext/config/healthcare.py +25,Record Patient Vitals,Catat Data V
 DocType: Fee Schedule,Institution,Lembaga
 DocType: Asset,Partially Depreciated,Disusutkan Sebagian
 DocType: Issue,Opening Time,Waktu Pembukaan
-apps/erpnext/erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py +97,From and To dates required,Tanggal Dari dan Untuk yang diperlukan
+apps/erpnext/erpnext/stock/report/itemwise_recommended_reorder_level/itemwise_recommended_reorder_level.py +97,From and To dates required,Tanggal Awal dan Akhir diperlukan
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +46,Securities & Commodity Exchanges,Efek & Bursa Komoditi
 apps/erpnext/erpnext/stock/doctype/item/item.py +740,Default Unit of Measure for Variant '{0}' must be same as in Template '{1}',Standar Satuan Ukur untuk Variant &#39;{0}&#39; harus sama seperti di Template &#39;{1}&#39;
 DocType: Shipping Rule,Calculate Based On,Hitung Berbasis On
