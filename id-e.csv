@@ -3972,7 +3972,7 @@ DocType: Supplier,Is Frozen,Dibekukan
 DocType: Tally Migration,Processed Files,File Diproses
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,Kelompok Gudang tidak boleh dipilih untuk transaksi
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py,Accounting Dimension <b>{0}</b> is required for 'Balance Sheet' account {1}.,Dimensi Pembukuan <b>{0}</b> diperlukan untuk akun 'Neraca' {1}.
-DocType: Buying Settings,Buying Settings,Setting Pembelian
+DocType: Buying Settings,Buying Settings,Pengaturan Pembelian
 DocType: Stock Entry Detail,BOM No. for a Finished Good Item,No. BOM untuk sebuah Barang Jadi
 DocType: Upload Attendance,Attendance To Date,Tanggal Akhir Kehadiran
 DocType: Request for Quotation Supplier,No Quote,Tidak ada Penawaran
