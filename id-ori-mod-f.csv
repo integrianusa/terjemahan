@@ -2319,7 +2319,7 @@ eval:doc.age&gt;18","Field ini hanya akan muncul jika fieldname memiliki nilai A
 2297,apps/frappe/frappe/core/doctype/error_snapshot/error_snapshot_list.js,Relapsed,Kambuh
 2298,apps/frappe/frappe/utils/nestedset.py,Item cannot be added to its own descendents,Item tidak dapat ditambahkan ke turunan sendiri
 2299,DocType: Session Default Settings,Session Defaults,Default Sesi
-2300,DocType: System Settings,Expiry time of QR Code Image Page,Waktu kadaluarsa Halaman Gambar Kode QR
+2300,DocType: System Settings,Expiry time of QR Code Image Page,Waktu kadaluarsa Gambar Kode QR
 2301,apps/frappe/frappe/public/js/frappe/views/reports/report_view.js,Show Totals,Tampilkan Total
 2302,DocType: Error Snapshot,Relapses,Kambuh
 2303,apps/frappe/frappe/public/js/frappe/social/pages/UserList.vue,No user found,Tidak ada pengguna yang ditemukan
