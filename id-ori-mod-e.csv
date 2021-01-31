@@ -473,7 +473,7 @@
 469,apps/erpnext/erpnext/public/js/hub/pages/Item.vue,Edit Details,Edit Rincian
 470,apps/erpnext/erpnext/education/doctype/student_group/student_group.js,Update Email Group,Perbarui Kelompok Email
 471,DocType: POS Profile,Only show Customer of these Customer Groups,Hanya tunjukkan Pelanggan dari Kelompok Pelanggan ini
-472,DocType: Sales Invoice,Is Opening Entry,Entri Pembukaan
+472,DocType: Sales Invoice,Is Opening Entry,Adalah Entri Pembukaan
 473,apps/erpnext/erpnext/public/js/conf.js,Documentation,Dokumentasi
 474,DocType: Lab Test Template,"If unchecked, the item wont be appear in Sales Invoice, but can be used in group test creation. ","Jika tidak dicentang, item tersebut tidak akan muncul dalam Sales Invoice, namun dapat digunakan dalam pembuatan uji kelompok."
 475,DocType: Customer Group,Mention if non-standard receivable account applicable,Sebutkan jika akun non-standar piutang yang berlaku
@@ -851,7 +851,7 @@
 847,DocType: Purchase Taxes and Charges,"If checked, the tax amount will be considered as already included in the Print Rate / Print Amount","Jika dicentang, jumlah pajak akan dianggap sebagai sudah termasuk dalam Jumlah Tingkat Cetak / Print"
 848,DocType: Request for Quotation,Message for Supplier,Pesan untuk Pemasok
 849,DocType: BOM,Work Order,Perintah Kerja
-850,DocType: Sales Invoice,Total Qty,Jumlah Qty
+850,DocType: Sales Invoice,Total Qty,Jumlah
 851,apps/erpnext/erpnext/education/report/student_and_guardian_contact_details/student_and_guardian_contact_details.py,Guardian2 Email ID,ID Email Guardian2
 852,DocType: Item,Show in Website (Variant),Tampilkan di Website (Variant)
 853,DocType: Employee,Health Concerns,Kekhawatiran Kesehatan
@@ -1243,7 +1243,7 @@
 1238,DocType: Pricing Rule Item Group,Pricing Rule Item Group,Kelompok Item Aturan Harga
 1239,DocType: Travel Itinerary,Travel To,Perjalanan Ke
 1240,apps/erpnext/erpnext/config/accounting.py,Exchange Rate Revaluation master.,Master Revaluasi Nilai Tukar.
-1241,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Write Off Amount,Jumlah Nilai Write Off
+1241,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Write Off Amount,Nilai Penghapusan
 1242,DocType: Leave Block List Allow,Allow User,Izinkan Pengguna
 1243,DocType: Journal Entry,Bill No,Nomor Tagihan
 1244,DocType: Company,Gain/Loss Account on Asset Disposal,Akun Laba/Rugi Penghapusan Aset
@@ -1831,7 +1831,7 @@ It also updates latest price in all the BOMs.","Ganti BOM tertentu di semua BOM 
 1802,apps/erpnext/erpnext/education/doctype/course_scheduling_tool/course_scheduling_tool.js,Schedule Course,Jadwal Kursus
 1803,DocType: Budget,Applicable on Material Request,Berlaku pada Permintaan Material
 1804,apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Stock Options,Opsi Persediaan
-1805,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,No Items added to cart,Tidak ada Item yang ditambahkan ke keranjang
+1805,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,No Items added to cart,Tidak ada Item ditambahkan ke keranjang
 1806,DocType: Journal Entry Account,Expense Claim,Klaim Biaya
 1807,apps/erpnext/erpnext/assets/doctype/asset/asset.js,Do you really want to restore this scrapped asset?,Apakah anda benar-benar ingin mengembalikan aset dibuang ini?
 1808,apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.js,Qty for {0},Kuantitas untuk {0}
@@ -1937,7 +1937,7 @@ It also updates latest price in all the BOMs.","Ganti BOM tertentu di semua BOM 
 1906,DocType: Item Default,Sales Defaults,Standar Penjualan
 1907,DocType: Sales Order Item,Work Order Qty,Qty Perintah Kerja
 1908,DocType: Item Default,Default Selling Cost Center,Pusat Biaya Standar untuk Penjualan 
-1909,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Disc,Cakram
+1909,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Disc,Diskon
 1910,DocType: Buying Settings,Material Transferred for Subcontract,Transfer Material untuk Subkontrak
 1911,apps/erpnext/erpnext/buying/report/procurement_tracker/procurement_tracker.py,Purchase Order Date,Tanggal Order Pembelian
 1912,DocType: Email Digest,Purchase Orders Items Overdue,Item Order Pembelian Terlambat
@@ -2453,7 +2453,7 @@ It also updates latest price in all the BOMs.","Ganti BOM tertentu di semua BOM 
 2416,apps/erpnext/erpnext/templates/includes/cart/cart_items.html,Add notes,Tambahkan catatan
 2417,DocType: Purchase Invoice,Contact Person,Contact Person
 2418,apps/erpnext/erpnext/projects/doctype/task/task.py,'Expected Start Date' can not be greater than 'Expected End Date','Tanggal Harapan Mulai' tidak bisa setelah dari 'Tanggal Harapan Selesai'
-2419,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,No data for this period,Tidak ada data untuk periode ini
+2419,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,No data for this period,Tidak ada data periode ini
 2420,DocType: Course Scheduling Tool,Course End Date,Tanggal Selesai Kursus
 2421,DocType: Holiday List,Holidays,Hari Libur
 2422,DocType: Sales Order Item,Planned Quantity,Rencana Kuantitas
@@ -2636,7 +2636,7 @@ Used for Taxes and Charges",Tabel rincian pajak diambil dari master Item sebagai
 2597,DocType: Loyalty Program,Auto Opt In (For all customers),Keikutsertaan Otomatis (Untuk semua pelanggan)
 2598,apps/erpnext/erpnext/utilities/activation.py,Create Leads,Buat Prospek
 2599,DocType: Maintenance Schedule,Schedules,Jadwal
-2600,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,POS Profile is required to use Point-of-Sale,Profil POS diharuskan menggunakan Point of Sale
+2600,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,POS Profile is required to use Point-of-Sale,Penggunaan Point-of-Sale harus ada Profil POS
 2601,DocType: Cashier Closing,Net Amount,Nilai Bersih
 2602,apps/erpnext/erpnext/stock/doctype/material_request/material_request.py,{0} {1} has not been submitted so the action cannot be completed,{0} {1} belum dikirim sehingga tindakan tidak bisa diselesaikan
 2603,DocType: Purchase Order Item Supplied,BOM Detail No,No. Rincian BOM
@@ -3930,7 +3930,7 @@ leave blank automatically set after saving chapter.",chapter/chapter_name otomat
 3879,apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py,Group by Voucher,Kelompok menurut Voucher
 3880,apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Are you sure you want to cancel this appointment?,Yakin ingin membatalkan janji temu ini?
 3881,DocType: Hotel Room Pricing Package,Hotel Room Pricing Package,Paket Harga Kamar Hotel
-3882,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,Sales Pipeline,Pipeline penjualan
+3882,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,Sales Pipeline,Pipeline Penjualan
 3883,apps/erpnext/erpnext/hr/doctype/payroll_entry/payroll_entry.py,Please set default account in Salary Component {0},Silakan set account standar di Komponen Gaji {0}
 3884,apps/erpnext/erpnext/templates/form_grid/material_request_grid.html,Required On,Diperlukan pada
 3885,DocType: Rename Tool,File to Rename,Nama File Dirubah Nama
@@ -4317,7 +4317,7 @@ Tarif pajak yang definisikan disini akan menjadi tarif pajak standar untuk semua
 4225,DocType: Bank Reconciliation,Include POS Transactions,Sertakan Transaksi POS
 4226,DocType: Quality Action,Corrective/Preventive,Perbaikan/Pencegahan
 4227,DocType: Purchase Invoice,Inter Company Invoice Reference,Referensi Faktur Antar Perusahaan
-4228,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select an item in the cart,Harap pilih item di keranjang
+4228,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select an item in the cart,Pilih item di keranjang
 4229,DocType: Landed Cost Voucher,Purchase Receipt Items,Nota Penerimaan Produk
 4230,apps/erpnext/erpnext/regional/italy/utils.py,Please set Tax ID for the customer '%s',Harap tetapkan ID Pajak untuk pelanggan '% s'
 4231,apps/erpnext/erpnext/config/help.py,Customizing Forms,Menyesuaikan Bentuk
@@ -5342,7 +5342,7 @@ Examples:
 5233,apps/erpnext/erpnext/selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py,New Customers,Pelanggan Baru
 5234,apps/erpnext/erpnext/accounts/report/gross_profit/gross_profit.py,Gross Profit %,Laba Kotor %
 5235,apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.py,Appointment {0} and Sales Invoice {1} cancelled,Perjanjian {0} dan Faktur Penjualan {1} dibatalkan
-5236,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,Opportunities by lead source,Peluang oleh sumber utama
+5236,apps/erpnext/erpnext/selling/page/sales_funnel/sales_funnel.js,Opportunities by lead source,Peluang oleh prospek utama
 5237,DocType: Appraisal Goal,Weightage (%),Weightage (%)
 5238,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Change POS Profile,Ubah Profil POS
 5239,DocType: Bank Reconciliation Detail,Clearance Date,Izin Tanggal
@@ -5792,7 +5792,7 @@ Tidak Ada Hasil untuk tes tanpa hasil. Juga, tidak ada Lab Test yang dibuat. mis
 5667,apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Variance ({}),Varians ({})
 5668,DocType: Purchase Invoice,Import Of Service,Impor Layanan
 5669,DocType: Education Settings,LMS Title,Judul LMS
-5670,DocType: Sales Invoice,Ship,Kapal
+5670,DocType: Sales Invoice,Ship,Kirim
 5671,DocType: Staffing Plan Detail,Current Openings,Lowongan Saat Ini
 5672,apps/erpnext/erpnext/accounts/report/cash_flow/cash_flow.py,Cash Flow from Operations,Arus Kas dari Operasional
 5673,apps/erpnext/erpnext/regional/report/eway_bill/eway_bill.py,CGST Amount,Jumlah CGST
@@ -5967,7 +5967,7 @@ Tidak Ada Hasil untuk tes tanpa hasil. Juga, tidak ada Lab Test yang dibuat. mis
 5840,apps/erpnext/erpnext/accounts/doctype/sales_invoice/regional/india_list.js,Generate e-Way Bill JSON,Hasilkan RUU e-Way JSON
 5841,apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py,Transaction reference no {0} dated {1},referensi transaksi tidak ada {0} tertanggal {1}
 5842,apps/erpnext/erpnext/setup/doctype/supplier_group/supplier_group.js,There is nothing to edit.,Tidak ada yang mengedit.
-5843,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Form View,Tampilan formulir
+5843,apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Form View,Tampilan Form
 5844,DocType: HR Settings,Expense Approver Mandatory In Expense Claim,Pemberi Izin Pengeluaran wajib diisi untuk Klaim Pengeluaran
 5845,apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.py,Summary for this month and pending activities,Ringkasan untuk bulan ini dan kegiatan yang tertunda
 5846,apps/erpnext/erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py,Please set Unrealized Exchange Gain/Loss Account in Company {0},Tetapkan Akun Laba/Rugi Nilau Tukar Belum Terrealisasi di Perusahaan {0}
@@ -6953,7 +6953,7 @@ Note: BOM = Bill of Materials","Menggabungkan sekumpulan **Barang-barang** menja
 6818,,Asset Depreciations and Balances,Penyusutan dan Saldo Nilai Aset
 6819,apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.py,Amount {0} {1} transferred from {2} to {3},Jumlah {0} {1} ditransfer dari {2} untuk {3}
 6820,apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.py,{0} does not have a Healthcare Practitioner Schedule. Add it in Healthcare Practitioner master,{0} tidak memiliki Jadwal Tenaga Kesehatan. Tambahkan di data Tenaga Kesehatan
-6821,DocType: Sales Invoice,Get Advances Received,Ambil Uang Muka Diterima
+6821,DocType: Sales Invoice,Get Advances Received,Ambil Penerimaan Uang Muka
 6822,DocType: Email Digest,Add/Remove Recipients,Tambah/Hapus Penerima
 6823,apps/erpnext/erpnext/accounts/doctype/fiscal_year/fiscal_year.js,"To set this Fiscal Year as Default, click on 'Set as Default'","Untuk mengatur Tahun Anggaran ini sebagai Standar, klik 'Sebagai Standar'"
 6824,apps/erpnext/erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py,Amount of TDS Deducted,Jumlah TDS Dikurangkan

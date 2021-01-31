@@ -2294,16 +2294,16 @@ apps/frappe/frappe/config/integrations.py,Register OAuth Client App,Registrasi A
 DocType: DocField,Fetch If Empty,Fetch If Empty
 DocType: Data Migration Connector,Authentication Credentials,Kredensial Otentikasi
 DocType: Role,Two Factor Authentication,Otentikasi Dua Faktor
-apps/frappe/frappe/templates/pages/integrations/braintree_checkout.html,Pay,Membayar
-DocType: Energy Point Settings,Point Allocation Periodicity,Titik Alokasi Periode
+apps/frappe/frappe/templates/pages/integrations/braintree_checkout.html,Pay,Bayar
+DocType: Energy Point Settings,Point Allocation Periodicity,Periode Alokasi Poin
 DocType: SMS Settings,SMS Gateway URL,URL Gerbang SMS
-apps/frappe/frappe/model/base_document.py,"{0} {1} cannot be ""{2}"". It should be one of ""{3}""","{0} {1} tidak dapat ""{2}"". Seharusnya salah satu dari ""{3}"""
+apps/frappe/frappe/model/base_document.py,"{0} {1} cannot be ""{2}"". It should be one of ""{3}""","{0} {1} tidak bisa ""{2}"". Seharusnya salah satu dari ""{3}"""
 apps/frappe/frappe/public/js/frappe/utils/energy_point_utils.js,gained by {0} via automatic rule {1},diperoleh sebesar {0} melalui aturan otomatis {1}
 apps/frappe/frappe/utils/data.py,{0} or {1},{0} atau {1}
 DocType: Workflow State,trash,trash
-DocType: System Settings,Older backups will be automatically deleted,Cadangan yang lebih tua akan dihapus secara otomatis
+DocType: System Settings,Older backups will be automatically deleted,Cadangan yang lebih lama akan otomatis dihapus
 apps/frappe/frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.py,Invalid Access Key ID or Secret Access Key.,ID Kunci Akses Tidak Valid atau Kunci Akses Rahasia.
-apps/frappe/frappe/social/doctype/energy_point_log/energy_point_log.py,You lost some energy points,Anda kehilangan beberapa titik energi
+apps/frappe/frappe/social/doctype/energy_point_log/energy_point_log.py,You lost some energy points,Anda kehilangan beberapa poin
 DocType: Post,Is Globally Pinned,Pinned Secara Global
 apps/frappe/frappe/desk/page/user_profile/user_profile.html,Recent Activity,Aktivitas Terbaru
 DocType: Workflow Transition,Conditions,Kondisi
